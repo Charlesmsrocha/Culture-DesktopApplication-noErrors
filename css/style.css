@@ -1,11 +1,11 @@
 img#culture{
-	width:25%;
-	height:25%;
+	width:24%;
+	height:24%;
 }
 
 #logo{
   text-align: center;
-  font-size:25px;
+  font-size:24px;
   font-style: italic;
 }
 
@@ -16,7 +16,7 @@ button:hover, #login:hover {
 
 /* Add padding to containers */
 .container {
-  padding: 5%;
+  padding: 3%;
 }
 
 /* Full-width input fields */
@@ -94,6 +94,7 @@ nav li:hover{
 .appname-centered{
   text-align:center;
   color:  var(--text-color);
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
 }
 
 a {
@@ -103,4 +104,5 @@ a {
 
 h3 {
   color: #000;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
 }
