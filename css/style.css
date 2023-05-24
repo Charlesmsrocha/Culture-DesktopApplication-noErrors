@@ -88,7 +88,7 @@ nav li:hover{
   justify-content: center;
   align-items: center;
   height: 80vh;
-  opacity: 0.7;
+  opacity: 0.85;
 }
 
 .appname-centered{
@@ -99,4 +99,8 @@ nav li:hover{
 a {
   color:#04AA6D;
   text-decoration: unset;
+}
+
+h3 {
+  color: #000;
 }
