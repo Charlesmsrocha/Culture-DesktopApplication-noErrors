@@ -1,0 +1,102 @@
+img#culture{
+	width:25%;
+	height:25%;
+}
+
+#logo{
+  text-align: center;
+  font-size:25px;
+  font-style: italic;
+}
+
+/* Add a hover effect for buttons */
+button:hover, #login:hover {
+  opacity: 0.7;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 5%;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 3px 3px 3px 3px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Set a style for login and sign buttons */
+#login, #goindex {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  margin: 3px 3px 3px 3px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Set a style for normal pages*/
+body {
+	background: white;
+	color: black;
+	padding: 1em;
+}
+
+img {
+	width:10%;
+	height:10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+h1{
+	font-style: italic;
+  /* text-align:center; */
+}
+
+header ul{
+    list-style: none;
+    position: absolute;
+    top: -15px;
+    left: 100px;
+}
+
+header li{
+	display: inline-block;
+  background-color: #dddddd;
+  padding: 5px 5px;
+  margin: 5px;
+  transition:  0.5s;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20%;
+}
+
+nav li:hover{
+  background-color: #222222;    
+}
+
+.appname{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  opacity: 0.7;
+}
+
+.appname-centered{
+  text-align:center;
+  color:  var(--text-color);
+}
+
+a {
+  color:#04AA6D;
+  text-decoration: unset;
+}
